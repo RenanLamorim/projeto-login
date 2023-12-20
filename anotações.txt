@@ -1,0 +1,1 @@
+overflow: hidden; (use na div pai para ocultar algum elemento filho que esteja vazando pra fora da borda)

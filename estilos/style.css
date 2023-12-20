@@ -28,11 +28,14 @@ main{
     height: 500px;
     border-radius: 20px;
     padding: 10px;
+    overflow: hidden;
 
 }
 
 #imagem{
     background: #5f2c82 url(../imagens/pexels-sevenstorm-juhaszimrus-443383.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 200px;
-    width: 230px;
+
 }
