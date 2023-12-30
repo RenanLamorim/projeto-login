@@ -1,5 +1,5 @@
 overflow: hidden; (use na div pai para ocultar algum elemento filho que esteja vazando pra fora da borda)
-
+----------------------------------------------------------------------------------------------------------
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
@@ -14,3 +14,5 @@ overflow: hidden; (use na div pai para ocultar algum elemento filho que esteja v
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
+-----------------------------------------------------------------------------------------------------------
+use a tag float no css pra fazer algum elemento se posicionar na direito esquerda ou centro da div pai
