@@ -11,4 +11,25 @@
         width: 30%;
         height: 100%;
     }
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #Login{
+        width: 90vw;
+
+
+    }
+    #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario{
+        float: right;
+        width: 50%;
+    }
 }

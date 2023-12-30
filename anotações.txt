@@ -16,3 +16,7 @@ overflow: hidden; (use na div pai para ocultar algum elemento filho que esteja v
 @media only screen and (min-width: 1200px)
 -----------------------------------------------------------------------------------------------------------
 use a tag float no css pra fazer algum elemento se posicionar na direito esquerda ou centro da div pai
+
+transition: width 0.3s, height 0.3s; (pra fazer uma animação quando mudar de um media-query pro outro)
+
+transition-timing-function: ease; (Pra suavizar a animação)
