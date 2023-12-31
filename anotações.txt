@@ -26,3 +26,5 @@ input[type=submit]{
 
 }
 
+ao usar cursor: pointer; dentro de uma class vc faz que quando voce passe o mouse por cima do elemento 
+correspondente a classe o mouse vira a uma mão.
