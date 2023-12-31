@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/Media-query.css">
 </head>
@@ -19,12 +20,24 @@
             as configurações no seu ambiente.</p>
             <br>
         <form action="login.php" method="post">
-            <label for="iemail">email:</label>
-            <input type="email" name="email" id="iemail"> 
-            <label for="isenha">senha:</label>
-            <input type="password" name="senha" id="isenha">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+            <p>
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+                <label for="iemail">email:</label>
+                <input class="iii" type="email" name="email" id="iemail" placeholder="seu email">
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    vpn_key
+                    </span>
+                <label for="isenha">senha:</label>
+                <input type="password" name="senha" id="isenha" placeholder="sua senha">
+            </p>
+            <p class="but">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
 
         </form>
         </div>
