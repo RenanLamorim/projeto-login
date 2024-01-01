@@ -25,7 +25,7 @@ main{
 #Login{
     background-color: white;
     width: 250px;
-    height: 560px;
+    height: 600px;
     border-radius: 15px;
     padding: 10px;
     overflow: hidden;
@@ -60,7 +60,14 @@ main{
     font-size: 0.9em;
 }
 
-
+.pas{
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    height: 40px;
+    margin: 5px 0px;
+}
 
 .but{
     margin-top: 10px;
