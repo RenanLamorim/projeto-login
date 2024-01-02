@@ -28,3 +28,11 @@ input[type=submit]{
 
 ao usar cursor: pointer; dentro de uma class vc faz que quando voce passe o mouse por cima do elemento 
 correspondente a classe o mouse vira a uma mão.
+-----------------------------------------------------------------------------------------------------------
+use "width: calc();" para ajustar algum tamanho especifico
+
+exemplo: quero encaixar um input do lado de um icone com o width de 40px
+
+width: calc(100% - 44px)
+
+usei 44 so pra dar uma epaço extra alem dos 40px
