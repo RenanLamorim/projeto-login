@@ -33,6 +33,7 @@ main{
     transition: width 0.7s, height 0.7s;
     transition-timing-function: ease;
 
+
 }
 
 #imagem{
@@ -41,6 +42,7 @@ main{
     background-repeat: no-repeat;
     height: 200px;
     display: block;
+
 
 }
 
@@ -71,6 +73,8 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 2px solid #5f2c82 ;
+ 
 }
 
 .but{
@@ -121,12 +125,14 @@ main{
    font-size: 1.7em;
    width: 40px;
    padding: 5px;
+   color: white;
     }
 
     input{
         font-size: 1em;
         border-radius: 8px;
-        width: calc(100% - 44px);
-
-
+        width: calc(100% - 41px);
+        height: 100%;
+        background-color: white;
+        padding: 3px;
     }

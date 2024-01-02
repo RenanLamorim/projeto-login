@@ -4,7 +4,7 @@
 
     #Login{
         width: 90vw;
-
+        height: 400px ;
 
     }
     #imagem{
@@ -26,6 +26,11 @@
      }
      .pas{
         background-color: white;
+        border: none;
+     }
+
+     .material-symbols-outlined{
+        color: black;
      }
     }
 
@@ -48,4 +53,10 @@
        font-size: 2em;
     
     }
+
+    #formulario > p {
+        font-size: 1.1em;
+    }
+
+
 }
