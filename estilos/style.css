@@ -112,3 +112,7 @@ main{
     input[type=submit]:hover{
         background-color: #347471;
     }
+
+    i{
+        color: white;
+    }
