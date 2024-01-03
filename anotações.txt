@@ -36,3 +36,5 @@ exemplo: quero encaixar um input do lado de um icone com o width de 40px
 width: calc(100% - 44px)
 
 usei 44 so pra dar uma epaço extra alem dos 40px
+-----------------------------------------------------------------------------------------------------------
+Storyset(Icones minimalistas)
